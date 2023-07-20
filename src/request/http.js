@@ -26,7 +26,6 @@ axios.interceptors.request.use(
 // 响应拦截器
 axios.interceptors.response.use(
   (response) => {
-    console.log(response, 'response')
     if (response.status === 200) {
       return Promise.resolve(response)
     } else {

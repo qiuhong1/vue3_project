@@ -1,3 +1,3 @@
 import { get, post, getDynamicynamic, getFileUseBlobByPost } from './http'
 
-export const getLlist = (p) => get('/list', p)
+export const getData = (p) => get('/home/category/head', p)

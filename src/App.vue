@@ -5,9 +5,6 @@ const storeObj = useCounterStore()
 </script>
 
 <template>
-  <header>
-    <div class="wrapper">我是具体内容{{ storeObj.count }}</div>
-  </header>
   <RouterView />
 </template>
 
