@@ -1,1 +1,11 @@
-<template>我是HomeComp</template>
+<template>
+  <div>我是HomeComp</div>
+  <div>我是HomeComp</div>
+  <div>我是HomeComp</div>
+  <div>我是HomeComp</div>
+  <div>我是HomeComp</div>
+  <div>我是HomeComp</div>
+  <div>我是HomeComp</div>
+  <div>我是HomeComp</div>
+  <div>我是HomeComp</div>
+</template>

@@ -10,3 +10,16 @@ export const useCounterStore = defineStore('counter', () => {
 
   return { count, doubleCount, increment }
 })
+
+//获取分类列表数据
+import { getCategoryAPI } from '@/request/api.js'
+export const getCategoryList = defineStore('category', () => {
+  let categoryList = ref([])
+  const getCategory = () => {
+    getCategoryAPI().then((res) => {
+      categoryList.value = res.result
+    })
+  }
+
+  return { categoryList, getCategory }
+})
