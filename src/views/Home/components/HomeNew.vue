@@ -6,7 +6,6 @@ import { getnewAPI } from '@/request/api.js'
 let newList = ref([])
 onMounted(() => {
   getnewAPI().then((res) => {
-    console.log(res)
     newList.value = res.result
   })
 })

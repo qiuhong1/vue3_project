@@ -1,5 +1,5 @@
 import './assets/init.scss'
-
+import { lazyPlugin } from '@/directive/index.js'
 import { createApp } from 'vue'
 import { createPinia } from 'pinia'
 import ElementPlus from 'element-plus'
@@ -13,5 +13,6 @@ const app = createApp(App)
 app.use(ElementPlus)
 app.use(createPinia())
 app.use(router)
+app.use(lazyPlugin)
 
 app.mount('#app')

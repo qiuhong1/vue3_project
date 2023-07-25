@@ -1,7 +1,6 @@
 <script setup>
 import { getCategoryList } from '@/stores/counter.js'
 const storeObj = getCategoryList()
-console.log(storeObj.categoryList, 'storeObj')
 </script>
 
 <template>
